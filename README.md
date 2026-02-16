@@ -109,11 +109,12 @@ On success, the program prints a JSON object shaped like:
             "unit_price_amount": 20.0,
             "amount": 100.0
         }],
-        "source_message_id": "msg01HZYXABC123",
+        "source_id": "msg01HZYXABC123",
         "source_subject": "Your Example SaaS receipt (INV-10492)",
         "source_from": "Example SaaS Billing billing@example.com",
-        "source_received_at_utc": "2026-01-10T08:15:22Z",
+        "source_occurred_at_utc": "2026-01-10T08:15:22Z",
         "source_attachment_filenames": ["InvoiceINV-10492.pdf" ],
+        "source_filename": null,
         "extraction_notes": [
             "Evidence(invoice_date): attachment:InvoiceINV-10492.pdf -> \"Invoice Date: Jan 10, 2026\"",
             "Evidence(total_amount): attachment:InvoiceINV-10492.pdf -> \"Total: $100.00\"",
