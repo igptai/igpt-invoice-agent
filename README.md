@@ -57,6 +57,9 @@ export IGPT_API_USER="your-igpt-api-user"
 ```
 If they are not set, `app.py` will prompt you via `getpass`.
 
+You can create your iGPT API key [here](https://igpt.ai/hub/apikeys/).
+
+
 4. Run:
 ```bash
 python3 app.py
