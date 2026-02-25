@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 380" width="480" height="380" font-family="'Courier New', Consolas, monospace">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#2d8a4e"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="480" height="380" fill="#f7f7f5"/>
+
+  <!-- Node 1: IGPT client -->
+  <rect x="140" y="25" width="200" height="46" rx="4" fill="#d4edda" stroke="#2d8a4e" stroke-width="1.2"/>
+  <text x="240" y="53" text-anchor="middle" fill="#1a5c2e" font-size="13" font-weight="600">iGPT(api_key, user)</text>
+
+  <!-- Arrow 1 -->
+  <line x1="240" y1="71" x2="240" y2="110" stroke="#2d8a4e" stroke-width="1.2" stroke-dasharray="6,4" marker-end="url(#arrow)"/>
+
+  <!-- Node 2: check datasources -->
+  <rect x="130" y="115" width="220" height="46" rx="4" fill="#d4edda" stroke="#2d8a4e" stroke-width="1.2"/>
+  <text x="240" y="143" text-anchor="middle" fill="#1a5c2e" font-size="13" font-weight="600">check_datasources</text>
+
+  <!-- Arrow 2 -->
+  <line x1="240" y1="161" x2="240" y2="200" stroke="#2d8a4e" stroke-width="1.2" stroke-dasharray="6,4" marker-end="url(#arrow)"/>
+
+  <!-- Node 3: recall.ask (slightly larger) -->
+  <rect x="120" y="205" width="240" height="50" rx="4" fill="#d4edda" stroke="#2d8a4e" stroke-width="1.6"/>
+  <text x="240" y="235" text-anchor="middle" fill="#1a5c2e" font-size="14" font-weight="700">recall.ask()</text>
+
+  <!-- Arrow 3 -->
+  <line x1="240" y1="255" x2="240" y2="298" stroke="#2d8a4e" stroke-width="1.2" stroke-dasharray="6,4" marker-end="url(#arrow)"/>
+
+  <!-- Node 4: structured output -->
+  <rect x="100" y="303" width="280" height="46" rx="4" fill="#d4edda" stroke="#2d8a4e" stroke-width="1.2"/>
+  <text x="240" y="331" text-anchor="middle" fill="#1a5c2e" font-size="13" font-weight="600">structured_json_output</text>
+</svg>
