@@ -12,6 +12,10 @@ SYSTEM_PROMPT = f"""
 
         Today's date (for reference only): {today}
 
+        Runtime filters:
+        - Only consider invoices within date range: last 90 days.
+        - Focus on content containing: "invoice", "receipt", "payment", "order", "subscription", "renewal".
+
         What counts as an invoice-like document
         Extract records for:
         - Invoices / Tax invoices / Billing statements
